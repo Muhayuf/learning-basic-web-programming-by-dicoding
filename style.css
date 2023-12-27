@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    height: 100vh;
+}
+p, h1, h2, h3, h5, h6{
+    color: black;
+}
+h4 {
+    color: #393E46;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e7edf8;
+    padding: 10px 70px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 -3px 20px rgb(0, 0, 0);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 70px;
+    width: auto;
+    margin-right: 20px;
+}
+.logo a{
+    text-decoration: none;
+}
+.moreLogo img {
+    height: 60px;
+    width: auto;
+    margin: 0 20px;
+}
+
+/* Main */
+main {
+    display: flex;
+    align-items: center;
+}
+
+/* Article */
+.content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px 10px 15px 0;
+}
+.comfest-article{
+    padding: 25px 0;
+}
+.finIT-article {
+    padding: 25px 0;
+}
+.progrush {
+    padding: 25px 0;
+}
+
+/* Aside */
+aside {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+aside img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.compfest {
+    padding: 5px 0;
+    
+}
+.findItUgm {
+    padding: 15px 0;
+    
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aside {
+        margin-right: auto;
+    }
+  }
+
+/* Footer */
+footer {
+    background-color: #e7edf8;
+    padding: 15px 0 15px 60px;
+}
+footer h3 {
+    color: #393E46;
+}
+footer .sosmed {
+    margin-bottom: 20px;
+}
+.sosmedIcon {
+    margin-right: 13px;
+    padding-top: 15px;
+}
+.copyright {
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 10px;
+}
